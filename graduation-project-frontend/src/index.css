@@ -1,0 +1,54 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  color: #333;
+}
+
+form {
+  margin-top: 20px;
+}
+
+input,
+textarea {
+  margin-bottom: 10px;
+  padding: 8px;
+  width: 100%;
+  max-width: 500px;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+.result-table {
+  width: 80%; /* 원하는 너비로 설정 */
+  margin: 20px auto; /* 상하 여백, 좌우 중앙 정렬 */
+  border-collapse: collapse;
+  text-align: center; /* 텍스트 가운데 정렬 */
+}
+
+.result-table th, .result-table td {
+  padding: 10px;
+  border: 1px solid #ddd;
+}
+
+.result-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column; /* 결과 카드들을 세로로 정렬 */
+  padding: 20px;
+}
